@@ -1,0 +1,22 @@
+model_name_or_path: google/gemma-4-12b-it
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: true
+system_prompt: 'Answer only with (A) or (B).'
+apply_steer_hparam_paths:
+- /users/acp25mk/cross-lingual-caa/hparams/Steer/caa_hparams/apply_caa_layer24_m1.0.yaml
+steer_vector_load_dir:
+- /users/acp25mk/cross-lingual-caa/vectors/Gemma4-12B/truthfulqa/caa_vector/truthfulqa_en/caa_vector_multiple_choice
+generation_data:
+- /users/acp25mk/cross-lingual-caa/data/truthfulqa/en/eval.json
+generation_data_size: null
+generation_output_dir: /users/acp25mk/cross-lingual-caa/results/tqa_gemma4_en_m1.0_layer24
+num_responses: 1
+steer_from_end_position: false
+generate_orig_output: true
+generation_params:
+  max_new_tokens: 64
+  do_sample: false
+  temperature: 0.0
+enable_thinking: false

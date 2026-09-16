@@ -1,0 +1,8 @@
+{
+  "layer": 23,
+  "multiplier": 1.0,
+  "n_samples": 1000,
+  "baseline_sycophancy_rate": 0.598,
+  "steered_sycophancy_rate": 0.597,
+  "delta_pp": -0.10000000000000009
+}

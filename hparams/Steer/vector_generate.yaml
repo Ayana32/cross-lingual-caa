@@ -1,0 +1,14 @@
+model_name_or_path: Qwen/Qwen2.5-7B-Instruct
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: True
+system_prompt: ''
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa.yaml
+steer_train_dataset: sycophancy
+steer_vector_output_dirs:
+ - /users/acp25mk/EasyEdit/vectors/Qwen2.5-7B-Instruct
+
+vllm_enable: false

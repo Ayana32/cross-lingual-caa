@@ -1,0 +1,1530 @@
+[
+  {
+    "input": "No hay bicicletas que puedan llamarse coches. También es cierto que cada bicicleta es un tipo de vehículo. Esto ha llevado a la conclusión de que una parte de los vehículos son bicicletas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay bicicletas que puedan llamarse coches. También es cierto que cada bicicleta es un tipo de vehículo. Esto ha llevado a la conclusión de que una parte de los vehículos son bicicletas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay algunos objetos que son libros que no son archivos digitales. Cada libro es un elemento con páginas. Por lo tanto, algunos objetos con páginas son archivos digitales. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay algunos objetos que son libros que no son archivos digitales. Cada libro es un elemento con páginas. Por lo tanto, algunos objetos con páginas son archivos digitales. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada objeto puede volar. Se sabe que algunos barcos no pueden volar. Se deduce que algunos barcos no son objetos. ¿Es este argumento lógicamente válido?",
+    "question": "Cada objeto puede volar. Se sabe que algunos barcos no pueden volar. Se deduce que algunos barcos no son objetos. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo fruto es un alimento. Nada que sea una verdura es un alimento. De esto se deduce que todo vegetal es una fruta. ¿Es este argumento lógicamente válido?",
+    "question": "Todo fruto es un alimento. Nada que sea una verdura es un alimento. De esto se deduce que todo vegetal es una fruta. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay individuos que sean elefantes que también sean personas inscritas en el jardín de infantes. Todos los niños de cinco años son personas inscritas en el jardín de infantes. Se puede deducir que algunos niños de cinco años no son elefantes. ¿Es este argumento lógicamente válido?",
+    "question": "No hay individuos que sean elefantes que también sean personas inscritas en el jardín de infantes. Todos los niños de cinco años son personas inscritas en el jardín de infantes. Se puede deducir que algunos niños de cinco años no son elefantes. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "El conjunto completo de frutas está compuesto por objetos redondos con una cáscara de cítricos. Al menos una naranja no es un objeto redondo con una cáscara de cítricos. Cada fruta es una naranja. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "El conjunto completo de frutas está compuesto por objetos redondos con una cáscara de cítricos. Al menos una naranja no es un objeto redondo con una cáscara de cítricos. Cada fruta es una naranja. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay ningún animal que sea una roca. Algunas rocas son plantas. De esto, se puede concluir que algunos animales son plantas. ¿Es lógicamente válido este argumento?",
+    "question": "No hay ningún animal que sea una roca. Algunas rocas son plantas. De esto, se puede concluir que algunos animales son plantas. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un mueble que pueda llamarse planeta. Cada silla es un mueble. Por lo tanto, ninguna silla es un planeta. ¿Es lógicamente válido este argumento?",
+    "question": "No hay un mueble que pueda llamarse planeta. Cada silla es un mueble. Por lo tanto, ninguna silla es un planeta. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada vehículo puede considerarse un objeto. No hay coches que sean objetos. Por lo tanto, ningún coche es un vehículo. ¿Es este argumento lógicamente válido?",
+    "question": "Cada vehículo puede considerarse un objeto. No hay coches que sean objetos. Por lo tanto, ningún coche es un vehículo. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunas cosas que son libros que no tienen páginas. Cada libro es un ser vivo. Por lo tanto, algunos seres vivos tienen páginas. ¿Es este argumento lógicamente válido?",
+    "question": "Hay algunas cosas que son libros que no tienen páginas. Cada libro es un ser vivo. Por lo tanto, algunos seres vivos tienen páginas. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay coches que no estén vivos. Es cierto que no hay caballo vivo. Al menos algunos caballos son coches. ¿Es lógicamente válido este argumento?",
+    "question": "No hay coches que no estén vivos. Es cierto que no hay caballo vivo. Al menos algunos caballos son coches. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay canino que sea felino. Todo lo que es canino es también un perro. Esto hace que sea cierto que todos los perros son gatos. ¿Es este argumento lógicamente válido?",
+    "question": "No hay canino que sea felino. Todo lo que es canino es también un perro. Esto hace que sea cierto que todos los perros son gatos. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay aves que sean triángulos. Cada triángulo es, por definición, una forma. Por lo tanto, algunas formas son aves. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "No hay aves que sean triángulos. Cada triángulo es, por definición, una forma. Por lo tanto, algunas formas son aves. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que no hay lagos que sean cuerpos de agua fluidos. Cada río es, por su naturaleza, un cuerpo de agua fluido.",
+    "question": "Es cierto que no hay lagos que sean cuerpos de agua fluidos. Cada río es, por su naturaleza, un cuerpo de agua fluido.",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay ningún animal que sea un árbol. Todos los árboles son plantas sin excepción. Algunas plantas son animales. ¿Es lógicamente válido este argumento?",
+    "question": "No hay ningún animal que sea un árbol. Todos los árboles son plantas sin excepción. Algunas plantas son animales. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada elemento que es un instrumento de escritura es una herramienta. Hay algunos bolígrafos que son instrumentos de escritura. Por lo tanto, algunos bolígrafos son herramientas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada elemento que es un instrumento de escritura es una herramienta. Hay algunos bolígrafos que son instrumentos de escritura. Por lo tanto, algunos bolígrafos son herramientas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Es cierto que no hay reptiles que sean pájaros. Algunas cosas con muebles son reptiles. Se deduce que algunas cosas con muebles son aves. ¿Es este argumento lógicamente válido?",
+    "question": "Es cierto que no hay reptiles que sean pájaros. Algunas cosas con muebles son reptiles. Se deduce que algunas cosas con muebles son aves. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay coches que sean aviones. Todo lo que es un perro es un coche. Por lo tanto, cada perro es un avión. ¿Es lógicamente válido este argumento?",
+    "question": "No hay coches que sean aviones. Todo lo que es un perro es un coche. Por lo tanto, cada perro es un avión. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay peces que no vivan en la luna. Es cierto que ningún gato es un pez. Al menos algunos gatos viven en la luna. ¿Es lógicamente válido este argumento?",
+    "question": "No hay peces que no vivan en la luna. Es cierto que ningún gato es un pez. Al menos algunos gatos viven en la luna. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un solo objeto que sea un vehículo que sea un tipo de transporte. Varios vehículos son autobuses. La conclusión de que algunos autobuses no son transporte se sigue necesariamente. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay un solo objeto que sea un vehículo que sea un tipo de transporte. Varios vehículos son autobuses. La conclusión de que algunos autobuses no son transporte se sigue necesariamente. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un atleta puede fotosíntesis. Cada jugador de tenis es un atleta. Al menos un jugador de tenis puede fotosíntesis. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un atleta puede fotosíntesis. Cada jugador de tenis es un atleta. Al menos un jugador de tenis puede fotosíntesis. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada forma de cuatro lados es un rectángulo. Todas las formas de cuatro lados son cuadrados. De esto se deduce que algunos cuadrados no son rectángulos. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cada forma de cuatro lados es un rectángulo. Todas las formas de cuatro lados son cuadrados. De esto se deduce que algunos cuadrados no son rectángulos. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un pájaro es un edificio. Todo lo que es un pájaro es un vehículo. Por lo tanto, algunos vehículos son edificios. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un pájaro es un edificio. Todo lo que es un pájaro es un vehículo. Por lo tanto, algunos vehículos son edificios. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Una piedra nunca es inanimada. Todo lo que es una estatua es una piedra. Por lo tanto, esto implica que ninguna estatua es inanimada. ¿Es este argumento lógicamente válido?",
+    "question": "Una piedra nunca es inanimada. Todo lo que es una estatua es una piedra. Por lo tanto, esto implica que ninguna estatua es inanimada. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "El conjunto de objetos y cucharas no se superponen. Una parte de cucharas son instrumentos. Algunos instrumentos no son objetos. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "El conjunto de objetos y cucharas no se superponen. Una parte de cucharas son instrumentos. Algunos instrumentos no son objetos. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunos océanos que son insectos. Cada insecto es un animal. Se deduce que algunos animales son océanos. ¿Es lógicamente válido este argumento?",
+    "question": "Hay algunos océanos que son insectos. Cada insecto es un animal. Se deduce que algunos animales son océanos. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cualquier forma que sea cuadrado también es cuadrilateral. Ningún cuadrilateral es un círculo. Es una conclusión necesaria que ningún círculo es cuadrado. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cualquier forma que sea cuadrado también es cuadrilateral. Ningún cuadrilateral es un círculo. Es una conclusión necesaria que ningún círculo es cuadrado. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada ser humano tiene más de 10 pies de altura. Algunos jugadores de baloncesto son humanos. Se deduce, entonces, que algunos jugadores de baloncesto tienen más de 10 pies de altura. ¿Es este argumento lógicamente válido?",
+    "question": "Cada ser humano tiene más de 10 pies de altura. Algunos jugadores de baloncesto son humanos. Se deduce, entonces, que algunos jugadores de baloncesto tienen más de 10 pies de altura. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada ejemplo de ajedrez es un juego de mesa. El juego de etiquetas nunca es un juego de mesa. Por lo tanto, etiquetas no es ajedrez. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada ejemplo de ajedrez es un juego de mesa. El juego de etiquetas nunca es un juego de mesa. Por lo tanto, etiquetas no es ajedrez. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Es cierto que ningún gato es un perro. Entre los animales que son gatos, algunos son mascotas. La consecuencia lógica es que hay mascotas que no son perros. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Es cierto que ningún gato es un perro. Entre los animales que son gatos, algunos son mascotas. La consecuencia lógica es que hay mascotas que no son perros. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada fruta crece de plantas. Hay manzanas que son frutas. Por lo tanto, es cierto que algunas manzanas crecen de plantas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada fruta crece de plantas. Hay manzanas que son frutas. Por lo tanto, es cierto que algunas manzanas crecen de plantas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay un solo coche que sea una bicicleta. Los vehículos incluyen cada bicicleta.",
+    "question": "No hay un solo coche que sea una bicicleta. Los vehículos incluyen cada bicicleta.",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "La categoría de sillas y la categoría de seres vivos no se superponen. El grupo de seres vivos y el grupo de objetos inanimados se excluyen mutuamente. Una parte de objetos inanimados no son sillas. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "La categoría de sillas y la categoría de seres vivos no se superponen. El grupo de seres vivos y el grupo de objetos inanimados se excluyen mutuamente. Una parte de objetos inanimados no son sillas. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunos robots son delfines. Cada delfín es un pez. Debe ser cierto que algunos peces son robots. ¿Es lógicamente válido este argumento?",
+    "question": "Algunos robots son delfines. Cada delfín es un pez. Debe ser cierto que algunos peces son robots. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que algunas rosas son amarillas. Una rosa es un tipo de flor. Por lo tanto, algunas flores son amarillas. ¿Es lógicamente válido este argumento?",
+    "question": "Es cierto que algunas rosas son amarillas. Una rosa es un tipo de flor. Por lo tanto, algunas flores son amarillas. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay profesores que sean niños. Algunos niños son atletas. Se concluye que algunos profesores son atletas. ¿Es lógicamente válido este argumento?",
+    "question": "No hay profesores que sean niños. Algunos niños son atletas. Se concluye que algunos profesores son atletas. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada perro es una cosa con pieles. Es cierto que ningún gato es un perro. Esto implica que algunos gatos tienen pieles. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada perro es una cosa con pieles. Es cierto que ningún gato es un perro. Esto implica que algunos gatos tienen pieles. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "¿Es lógicamente válido este argumento? (A) Válidoo (B) Inválido",
+    "question": "¿Es lógicamente válido este argumento? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "El grupo de artículos conocidos como ropa tiene miembros que son camisas. Se deduce que algunas prendas no son ropa. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "El grupo de artículos conocidos como ropa tiene miembros que son camisas. Se deduce que algunas prendas no son ropa. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todos los tigres son felinos, y de esto se deduce que algunos mamíferos no son felinos. ¿Es lógicamente válido este argumento?",
+    "question": "Todos los tigres son felinos, y de esto se deduce que algunos mamíferos no son felinos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada ser humano es un mamífero. Todo lo que es un médico es un humano. Es cierto que algunos médicos no son mamíferos. ¿Es lógicamente válido este argumento?",
+    "question": "Cada ser humano es un mamífero. Todo lo que es un médico es un humano. Es cierto que algunos médicos no son mamíferos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunos Ferrari que son cosas con ruedas. Todo lo que es un Ferrari es un coche. Se deduce que cada coche tiene ruedas. ¿Es este argumento lógicamente válido?",
+    "question": "Hay algunos Ferrari que son cosas con ruedas. Todo lo que es un Ferrari es un coche. Se deduce que cada coche tiene ruedas. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay nada que sea orgánico que pueda decirse que es un objeto celeste. Cada planeta es un tipo de cosa orgánica. Por lo tanto, no hay planetas que sean objetos celestes. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "No hay nada que sea orgánico que pueda decirse que es un objeto celeste. Cada planeta es un tipo de cosa orgánica. Por lo tanto, no hay planetas que sean objetos celestes. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay superposición entre mamíferos y felinos. Es cierto que cada gato es un felino. Los gatos no pueden considerarse mamíferos. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay superposición entre mamíferos y felinos. Es cierto que cada gato es un felino. Los gatos no pueden considerarse mamíferos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es una flor es también un insecto. Existen algunas margaritas que no son insectos. Esto significa necesariamente que algunas margaritas no son flores. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Todo lo que es una flor es también un insecto. Existen algunas margaritas que no son insectos. Esto significa necesariamente que algunas margaritas no son flores. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Los diamantes no son sustancias blandas. Todo lo que es un diamante es un compuesto de carbono. Hay algunos compuestos de carbono que no son sustancias blandas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Los diamantes no son sustancias blandas. Todo lo que es un diamante es un compuesto de carbono. Hay algunos compuestos de carbono que no son sustancias blandas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "El grupo de cometas no contiene cuerpos celestes. Cada cometa es un planeta. ¿Es lógicamente válido este argumento?",
+    "question": "El grupo de cometas no contiene cuerpos celestes. Cada cometa es un planeta. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es cuadrado es también cuadrilateral. Ningún círculo es cuadrado. Se deduce que ningún círculo es cuadrilateral. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Todo lo que es cuadrado es también cuadrilateral. Ningún círculo es cuadrado. Se deduce que ningún círculo es cuadrilateral. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada criatura es un mamífero. Es cierto que ningún mamífero es un anfibio. Por lo tanto, es el caso de que ningún anfibio es una criatura. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cada criatura es un mamífero. Es cierto que ningún mamífero es un anfibio. Por lo tanto, es el caso de que ningún anfibio es una criatura. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que algunos lápices son blancos. Hay algunas hojas de papel que no son blancas. Esto implica que algunas hojas de papel no son lápices. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Es cierto que algunos lápices son blancos. Hay algunas hojas de papel que no son blancas. Esto implica que algunas hojas de papel no son lápices. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Ningún elemento que sea un polígono con siete lados es un cuadrado. No hay triángulos que sean polígono con siete lados. Por lo tanto, una parte de los triángulos no son cuadrados. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Ningún elemento que sea un polígono con siete lados es un cuadrado. No hay triángulos que sean polígono con siete lados. Por lo tanto, una parte de los triángulos no son cuadrados. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Al menos un perro es un mamífero. Al menos un perro no es un pez. ¿Es lógicamente válido este argumento?",
+    "question": "Al menos un perro es un mamífero. Al menos un perro no es un pez. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay al menos una cuchara que es una herramienta de cocina. Algunos de los utensilios son cucharas. Por lo tanto, algunos de los utensilios son herramientas de cocina. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay al menos una cuchara que es una herramienta de cocina. Algunos de los utensilios son cucharas. Por lo tanto, algunos de los utensilios son herramientas de cocina. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada criatura que es un gato es un pez. Un número de tigres son gatos. Esto significa que hay algunos tigres que son peces. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada criatura que es un gato es un pez. Un número de tigres son gatos. Esto significa que hay algunos tigres que son peces. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay naranja es una manzana. Las manzanas son, sin excepción, frutas. Algunas frutas son naranjas. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay naranja es una manzana. Las manzanas son, sin excepción, frutas. Algunas frutas son naranjas. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay algunos animales que son mamíferos. No hay mamíferos que son aves. Por lo tanto, se puede decir que algunos pájaros son animales. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay algunos animales que son mamíferos. No hay mamíferos que son aves. Por lo tanto, se puede decir que algunos pájaros son animales. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada árbol tiene hojas. Cualquier objeto que sea un roble es un árbol. Por lo tanto, todos los robles son objetos que tienen hojas. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cada árbol tiene hojas. Cualquier objeto que sea un roble es un árbol. Por lo tanto, todos los robles son objetos que tienen hojas. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay números que sean ideas. Todo lo que es un líquido es un número. Por lo tanto, cada líquido es una idea. ¿Es este argumento lógicamente válido?",
+    "question": "No hay números que sean ideas. Todo lo que es un líquido es un número. Por lo tanto, cada líquido es una idea. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada persona que es cineasta es alguien que trabaja en la producción. El conjunto de directores contiene a alguien que trabaja en la producción. Por lo tanto, cada director es un cineasta. ¿Es este argumento lógicamente válido?",
+    "question": "Cada persona que es cineasta es alguien que trabaja en la producción. El conjunto de directores contiene a alguien que trabaja en la producción. Por lo tanto, cada director es un cineasta. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Todo lo que es un pez tiene piernas. No hay tiburones que no sean peces. Al menos algunos tiburones son cosas que tienen piernas. ¿Es lógicamente válido este argumento?",
+    "question": "Todo lo que es un pez tiene piernas. No hay tiburones que no sean peces. Al menos algunos tiburones son cosas que tienen piernas. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "La categoría de cuerpos celestes y la categoría de planetas son mutuamente excluyentes. No hay un solo planeta que sea una estrella. Debe ser el caso de que una parte de las estrellas no sean cuerpos celestes. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "La categoría de cuerpos celestes y la categoría de planetas son mutuamente excluyentes. No hay un solo planeta que sea una estrella. Debe ser el caso de que una parte de las estrellas no sean cuerpos celestes. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que una parte de los animales son aves. Entre los animales que son pingüinos, algunos también son animales. Esto demuestra que no todos los pingüinos son un pájaro. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Es cierto que una parte de los animales son aves. Entre los animales que son pingüinos, algunos también son animales. Esto demuestra que no todos los pingüinos son un pájaro. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un árbol es una planta. Todo lo que es una flor es una planta. Esto implica que algunas flores no son árboles. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un árbol es una planta. Todo lo que es una flor es una planta. Esto implica que algunas flores no son árboles. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Se sabe que no hay estrellas que sean planetas. Cada cosa que es la Tierra es un planeta. Como tal, algunas cosas en la Tierra son estrellas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Se sabe que no hay estrellas que sean planetas. Cada cosa que es la Tierra es un planeta. Como tal, algunas cosas en la Tierra son estrellas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada triángulo es un polígono. Cualquier cosa que sea un triángulo es también una forma geométrica con tres lados. Una parte de formas geométricas con tres lados no son polígonos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada triángulo es un polígono. Cualquier cosa que sea un triángulo es también una forma geométrica con tres lados. Una parte de formas geométricas con tres lados no son polígonos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Es un hecho que todas las máquinas son animales. Ningún animal es computadora. Por lo tanto, es necesario concluir que algunos computadores no son máquinas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Es un hecho que todas las máquinas son animales. Ningún animal es computadora. Por lo tanto, es necesario concluir que algunos computadores no son máquinas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es una nube es un político. Todo político está hecho de algodón. Por lo tanto, algunas cosas hechas de algodón son nubes. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Todo lo que es una nube es un político. Todo político está hecho de algodón. Por lo tanto, algunas cosas hechas de algodón son nubes. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunos edificios que son rascacielos. Un rascacielos es una estructura muy alta. Por lo tanto, se puede concluir que algunas estructuras altas son edificios. ¿Es este argumento lógicamente válido?",
+    "question": "Hay algunos edificios que son rascacielos. Un rascacielos es una estructura muy alta. Por lo tanto, se puede concluir que algunas estructuras altas son edificios. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay pianos que no sean instrumentos musicales. Todos los instrumentos musicales son objetos. De esto, se puede deducir que algunos objetos son pianos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay pianos que no sean instrumentos musicales. Todos los instrumentos musicales son objetos. De esto, se puede deducir que algunos objetos son pianos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay un solo objeto inanimado que sea un escritor. Una parte de los objetos inanimados son las personas. Es cierto que algunas personas son escritores. ¿Es este argumento lógicamente válido?",
+    "question": "No hay un solo objeto inanimado que sea un escritor. Una parte de los objetos inanimados son las personas. Es cierto que algunas personas son escritores. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Todo lo que es un planeta es un cuerpo celeste. Todo lo que es un planeta es un objeto redondo. Esto significa que algunos objetos redondos son cuerpos celestes. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un planeta es un cuerpo celeste. Todo lo que es un planeta es un objeto redondo. Esto significa que algunos objetos redondos son cuerpos celestes. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada utensilio de escritura es un animal. El conjunto de lápices no contiene animales. Es cierto que algunos utensilios de escritura no son lápices. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada utensilio de escritura es un animal. El conjunto de lápices no contiene animales. Es cierto que algunos utensilios de escritura no son lápices. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que no hay mamíferos que sean insectos. Hay animales que sean mamíferos. Por lo tanto, algunos animales son insectos. ¿Es lógicamente válido este argumento? (A) Válido (B) Invalid",
+    "question": "Es cierto que no hay mamíferos que sean insectos. Hay animales que sean mamíferos. Por lo tanto, algunos animales son insectos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalid",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada conductor de autobús no es una persona que lleva un uniforme. Una parte de las personas que son médicos son personas que usan uniformes. El resultado de esto es que algunos médicos son conductores de autobuses. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada conductor de autobús no es una persona que lleva un uniforme. Una parte de las personas que son médicos son personas que usan uniformes. El resultado de esto es que algunos médicos son conductores de autobuses. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Ningún elemento que sea un estado es una sede del gobierno. Una parte de las ciudades no son asientos del gobierno. Por lo tanto, cada ciudad es un estado. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Ningún elemento que sea un estado es una sede del gobierno. Una parte de las ciudades no son asientos del gobierno. Por lo tanto, cada ciudad es un estado. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada líquido está compuesto de roca. Una cierta cantidad de líquido es agua. Por consiguiente, es el caso de que algo de agua está hecho de roca. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada líquido está compuesto de roca. Una cierta cantidad de líquido es agua. Por consiguiente, es el caso de que algo de agua está hecho de roca. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay mamíferos que sean seres racionales. Cada ser humano es un ser racional. Los mamíferos no son humanos. ¿Es lógicamente válido este argumento?",
+    "question": "No hay mamíferos que sean seres racionales. Cada ser humano es un ser racional. Los mamíferos no son humanos. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay criaturas que no sean bipedas que también sean criaturas vivas. Todo lo que es una ardilla es una no bipedada. Por lo tanto, cada ardilla es una criatura viva. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay criaturas que no sean bipedas que también sean criaturas vivas. Todo lo que es una ardilla es una no bipedada. Por lo tanto, cada ardilla es una criatura viva. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cualquier cosa que sea C++ es un lenguaje de programación. No hay ejemplos de inglés que sean lenguajes de programación. Por lo tanto, se establece que ningún inglés es C++. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cualquier cosa que sea C++ es un lenguaje de programación. No hay ejemplos de inglés que sean lenguajes de programación. Por lo tanto, se establece que ningún inglés es C++. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Algunas bicicletas no pueden moverse. También es cierto que cada bicicleta es un vehículo. Por lo tanto, algunos vehículos no pueden moverse. ¿Es lógicamente válido este argumento?",
+    "question": "Algunas bicicletas no pueden moverse. También es cierto que cada bicicleta es un vehículo. Por lo tanto, algunos vehículos no pueden moverse. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada vaca es un animal de granja. La categoría de lobos no contiene animales de granja. Una parte de los lobos no son vacas. ¿Es lógicamente válido este argumento?",
+    "question": "Cada vaca es un animal de granja. La categoría de lobos no contiene animales de granja. Una parte de los lobos no son vacas. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay nada que sea un ser vivo que sea una piedra. Cada piedra es un ser humano. Por lo tanto, un subconjunto de seres humanos no está compuesto de seres vivos. ¿Es este argumento lógicamente válido?",
+    "question": "No hay nada que sea un ser vivo que sea una piedra. Cada piedra es un ser humano. Por lo tanto, un subconjunto de seres humanos no está compuesto de seres vivos. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que algunas nubes son blancas. Hay algunas ovejas que también son blancas. Esto implica que todas las ovejas son nubes. ¿Es lógicamente válido este argumento?",
+    "question": "Es cierto que algunas nubes son blancas. Hay algunas ovejas que también son blancas. Esto implica que todas las ovejas son nubes. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cualquier parte del año es un día. No hay meses que sean días. Se puede decir que una parte de meses no son partes del año. ¿Es este argumento lógicamente válido?",
+    "question": "Cualquier parte del año es un día. No hay meses que sean días. Se puede decir que una parte de meses no son partes del año. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "El cobre es, sin excepción, un metal. Existe algún cobre que es un conductor. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "El cobre es, sin excepción, un metal. Existe algún cobre que es un conductor. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Hay algunos mamíferos que son animales. Cada perro es un mamífero. Por lo tanto, es el caso de que cada perro es un animal. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay algunos mamíferos que son animales. Cada perro es un mamífero. Por lo tanto, es el caso de que cada perro es un animal. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Todos los instrumentos de violín son instrumentos de cuerda. Todas las cosas que son violínes son instrumentos musicales. Se deduce que algunos instrumentos musicales son instrumentos de cuerda. ¿Es este argumento lógicamente válido?",
+    "question": "Todos los instrumentos de violín son instrumentos de cuerda. Todas las cosas que son violínes son instrumentos musicales. Se deduce que algunos instrumentos musicales son instrumentos de cuerda. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Hay algunos individuos que son científicos que no son físicos. Cada persona que es científica es un académico. Por lo tanto, se puede concluir que todos los académicos son físicos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay algunos individuos que son científicos que no son físicos. Cada persona que es científica es un académico. Por lo tanto, se puede concluir que todos los académicos son físicos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada río es una cosa que fluye hacia el mar. El río Amazonas es un río. Varias partes del río Amazonas fluyen hacia el mar. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada río es una cosa que fluye hacia el mar. El río Amazonas es un río. Varias partes del río Amazonas fluyen hacia el mar. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Las nubes son de hierro sólido. Hay nubes que son un tipo de cúmulo. Esto implica que algunas nubes de cúmulo son de hierro sólido. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Las nubes son de hierro sólido. Hay nubes que son un tipo de cúmulo. Esto implica que algunas nubes de cúmulo son de hierro sólido. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un coche son frutas. Ninguna fruta es un vehículo. Esto demuestra que ningún vehículo es un coche. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un coche son frutas. Ninguna fruta es un vehículo. Esto demuestra que ningún vehículo es un coche. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Algunos reptiles son mamíferos. No hay mamíferos que sean peces. Como resultado, algunos peces son reptiles. ¿Es lógicamente válido este argumento?",
+    "question": "Algunos reptiles son mamíferos. No hay mamíferos que sean peces. Como resultado, algunos peces son reptiles. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es una araña es un arañón. Nada que es un insecto es un arañón. No es el caso de que todos los insectos sean arañas. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Todo lo que es una araña es un arañón. Nada que es un insecto es un arañón. No es el caso de que todos los insectos sean arañas. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada persona que es médico es también un profesional médico. Todos los profesionales médicos son personas con títulos. Podemos concluir lógicamente que algunas personas con títulos son médicos. ¿Es lógicamente válido este argumento?",
+    "question": "Cada persona que es médico es también un profesional médico. Todos los profesionales médicos son personas con títulos. Podemos concluir lógicamente que algunas personas con títulos son médicos. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay animales que sean árboles. Al menos una planta es un árbol. Por lo tanto, hay al menos una planta que sea un animal. ¿Es este argumento lógicamente válido?",
+    "question": "No hay animales que sean árboles. Al menos una planta es un árbol. Por lo tanto, hay al menos una planta que sea un animal. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay arbustos que sean plantas altas. Cada elemento que es un árbol es una planta alta. Esto demuestra que varios árboles no son arbustos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay arbustos que sean plantas altas. Cada elemento que es un árbol es una planta alta. Esto demuestra que varios árboles no son arbustos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Los artículos que son mesas no son en absoluto artículos diseñados para sentarse. Todo lo que es una silla es un artículo diseñado para sentarse. Las sillas no pueden clasificarse como mesas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Los artículos que son mesas no son en absoluto artículos diseñados para sentarse. Todo lo que es una silla es un artículo diseñado para sentarse. Las sillas no pueden clasificarse como mesas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada rascacielos es un edificio. Algunos cobertizos son rascacielos. Por lo tanto, cada cobertizo es un edificio. ¿Es este argumento lógicamente válido?",
+    "question": "Cada rascacielos es un edificio. Algunos cobertizos son rascacielos. Por lo tanto, cada cobertizo es un edificio. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay estrellas que sean cuerpos celestes. Todos los soles son cosas que son estrellas. Se deduce que algunos soles no son cuerpos celestes. ¿Es lógicamente válido este argumento?",
+    "question": "No hay estrellas que sean cuerpos celestes. Todos los soles son cosas que son estrellas. Se deduce que algunos soles no son cuerpos celestes. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "El perro es un animal, y nada que sea un pez es un animal, de lo que se deduce que cada pez es un perro. ¿Es lógicamente válido este argumento?",
+    "question": "El perro es un animal, y nada que sea un pez es un animal, de lo que se deduce que cada pez es un perro. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No es el caso de que cada automóvil sea un camión. Todos los automóviles son vehículos. Uno puede concluir lógicamente que algunos vehículos no son camiones. ¿Es lógicamente válido este argumento?",
+    "question": "No es el caso de que cada automóvil sea un camión. Todos los automóviles son vehículos. Uno puede concluir lógicamente que algunos vehículos no son camiones. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay un solo mueble que sea un animal. Cada animal es una silla. Debe ser que una parte de las sillas no son muebles. ¿Es lógicamente válido este argumento?",
+    "question": "No hay un solo mueble que sea un animal. Cada animal es una silla. Debe ser que una parte de las sillas no son muebles. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay animales que sean animales. Algunas aves se clasifican como mascotas. Por lo tanto, un grupo de aves no son animales. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay animales que sean animales. Algunas aves se clasifican como mascotas. Por lo tanto, un grupo de aves no son animales. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay gato que sea perro. Todos los perros son mamíferos sin excepción. Algunos mamíferos son gatos. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay gato que sea perro. Todos los perros son mamíferos sin excepción. Algunos mamíferos son gatos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay ciertos objetos designados como bolas de juego oficiales que no son redondas. Cada bola de juego oficial es un tipo de baloncesto. Por lo tanto, algunos objetos clasificados como baloncesto no son redondas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Hay ciertos objetos designados como bolas de juego oficiales que no son redondas. Cada bola de juego oficial es un tipo de baloncesto. Por lo tanto, algunos objetos clasificados como baloncesto no son redondas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay criaturas con escamas que sean también criaturas míticas. Una parte de las criaturas con escamas son peces. Es cierto que algunos peces son criaturas míticas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay criaturas con escamas que sean también criaturas míticas. Una parte de las criaturas con escamas son peces. Es cierto que algunos peces son criaturas míticas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay software que sea hardware. Cada programa es una forma de software. Debe concluirse que algunos programas no son hardware. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay software que sea hardware. Cada programa es una forma de software. Debe concluirse que algunos programas no son hardware. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada pez es un nadador. Hay una serie de aves que son nadadores. De esto se deduce que hay algunas aves que son peces. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada pez es un nadador. Hay una serie de aves que son nadadores. De esto se deduce que hay algunas aves que son peces. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay plantas que sean objetos metálicos. Todo lo que es una flor es una planta. Es cierto que algunas flores son objetos metálicos. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "No hay plantas que sean objetos metálicos. Todo lo que es una flor es una planta. Es cierto que algunas flores son objetos metálicos. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Las manzanas son alimentos deliciosos, y algunas son frutas, por lo que una parte de las frutas son alimentos deliciosos. ¿Es lógicamente válido este argumento?",
+    "question": "Las manzanas son alimentos deliciosos, y algunas son frutas, por lo que una parte de las frutas son alimentos deliciosos. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay animales que no sean acuáticos y también peces. Una parte de los animales que son mamíferos también son no acuáticos. Debe ser el caso de que algunos mamíferos no sean peces. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay animales que no sean acuáticos y también peces. Una parte de los animales que son mamíferos también son no acuáticos. Debe ser el caso de que algunos mamíferos no sean peces. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada edificio es una estructura que tiene ruedas. Cualquier cosa que es una casa es un edificio. En consecuencia, todas las casas son estructuras con ruedas. ¿Es este argumento lógicamente válido?",
+    "question": "Cada edificio es una estructura que tiene ruedas. Cualquier cosa que es una casa es un edificio. En consecuencia, todas las casas son estructuras con ruedas. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay libros que puedan llamarse plantas. También es cierto que cada libro es un tipo de animal. Esto ha llevado a la conclusión de que cada animal es una planta. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay libros que puedan llamarse plantas. También es cierto que cada libro es un tipo de animal. Esto ha llevado a la conclusión de que cada animal es una planta. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un solo animal con alas que sea un mamífero acuático. Cualquier cosa que sea un mamífero acuático es un pez. Es necesariamente cierto que ningún pez es un animal con alas. ¿Es lógicamente válido este argumento? (A) Válidoo (B) Inválido",
+    "question": "No hay un solo animal con alas que sea un mamífero acuático. Cualquier cosa que sea un mamífero acuático es un pez. Es necesariamente cierto que ningún pez es un animal con alas. ¿Es lógicamente válido este argumento? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada cuadrado es una forma. Cada círculo es una forma. Como tal, cada círculo es un cuadrado. ¿Es este argumento lógicamente válido?",
+    "question": "Cada cuadrado es una forma. Cada círculo es una forma. Como tal, cada círculo es un cuadrado. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunas cosas que son frutas que no son manzanas. Es cierto que todas las frutas son alimentos. De esto se deduce que hay algunos alimentos que no son manzanas. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Hay algunas cosas que son frutas que no son manzanas. Es cierto que todas las frutas son alimentos. De esto se deduce que hay algunos alimentos que no son manzanas. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Todo lo que es una flor es una piedra. No hay piedras que sean rosas. Esto implica lógicamente que algunas rosas no son flores. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es una flor es una piedra. No hay piedras que sean rosas. Esto implica lógicamente que algunas rosas no son flores. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No es el caso de que un lápiz sea un buen papel. No es un solo lápiz un libro. Esto hace que sea cierto que todos los libros son artículos de papel. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No es el caso de que un lápiz sea un buen papel. No es un solo lápiz un libro. Esto hace que sea cierto que todos los libros son artículos de papel. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunas personas que tienen títulos son personas que trabajan en escuelas. Algunas personas que trabajan en una escuela son maestras. Como resultado, algunos maestros son personas con títulos. ¿Es este argumento lógicamente válido?",
+    "question": "Algunas personas que tienen títulos son personas que trabajan en escuelas. Algunas personas que trabajan en una escuela son maestras. Como resultado, algunos maestros son personas con títulos. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay al menos un número impar que es un número negativo. Una parte de los números primos son números negativos. Por lo tanto, algunos números primos son números impar. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Hay al menos un número impar que es un número negativo. Una parte de los números primos son números negativos. Por lo tanto, algunos números primos son números impar. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay ningún animal que sea un mascota doméstico que sea un felino. No hay un solo gato que sea un mascota doméstica. Esto demuestra que algunos gatos no son felinos. ¿Es lógicamente válido este argumento?",
+    "question": "No hay ningún animal que sea un mascota doméstico que sea un felino. No hay un solo gato que sea un mascota doméstica. Esto demuestra que algunos gatos no son felinos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que ninguna persona norteamericana es europea. También es cierto que ninguna persona francesa es norteamericana. Es una necesidad lógica que ninguna persona francesa sea europea. ¿Es lógicamente válido este argumento?",
+    "question": "Es cierto que ninguna persona norteamericana es europea. También es cierto que ninguna persona francesa es norteamericana. Es una necesidad lógica que ninguna persona francesa sea europea. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es humano es también un mamífero. Ningún animal es humano. Esto significa que ningún animal es un mamífero. ¿Es lógicamente válido este argumento?",
+    "question": "Todo lo que es humano es también un mamífero. Ningún animal es humano. Esto significa que ningún animal es un mamífero. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cualquier objeto que sea una casa es un edificio. Algunas tiendas de campaña no son edificios. Esto implica que algunas tiendas de campaña no son casas. ¿Es este argumento lógicamente válido?",
+    "question": "Cualquier objeto que sea una casa es un edificio. Algunas tiendas de campaña no son edificios. Esto implica que algunas tiendas de campaña no son casas. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada cuadrado es un rectángulo. Existen algunos triángulos que no son rectángulos. Se deduce que algunos triángulos no son cuadrados. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada cuadrado es un rectángulo. Existen algunos triángulos que no son rectángulos. Se deduce que algunos triángulos no son cuadrados. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cada ser humano es un primate. Cualquier persona que es un hombre es un humano. Por lo tanto, es una certeza que cada hombre es un primate. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada ser humano es un primate. Cualquier persona que es un hombre es un humano. Por lo tanto, es una certeza que cada hombre es un primate. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cualquier persona que sea científica también es investigadora. Es imposible que un químico sea investigador. Esto significa que ningún químico es científico. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cualquier persona que sea científica también es investigadora. Es imposible que un químico sea investigador. Esto significa que ningún químico es científico. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que no hay atletas perezosos. Algunas personas son atletas. Por consiguiente, algunas personas son perezosas. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Es cierto que no hay atletas perezosos. Algunas personas son atletas. Por consiguiente, algunas personas son perezosas. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Las arañas no son en absoluto mamíferos. Cualquier araña es un arañón. Es cierto que algunos arañones no son mamíferos. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Las arañas no son en absoluto mamíferos. Cualquier araña es un arañón. Es cierto que algunos arañones no son mamíferos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Es imposible que un mamífero sea un águila. Algunas de las águilas son aves. Hay algunas aves que no son mamíferos. ¿Es lógicamente válido este argumento? (A) Válido (B) Invalid",
+    "question": "Es imposible que un mamífero sea un águila. Algunas de las águilas son aves. Hay algunas aves que no son mamíferos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalid",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Una cosa que es una silla es una mesa. Una cosa que es una mesa no puede ser un edificio. Se deduce que un edificio nunca es una silla. ¿Es este argumento lógicamente válido?",
+    "question": "Una cosa que es una silla es una mesa. Una cosa que es una mesa no puede ser un edificio. Se deduce que un edificio nunca es una silla. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Hay algunas cosas que son autos que no son cosas caras. Es cierto que todos los coches son vehículos. Se deduce que algunos vehículos son cosas caras. ¿Es lógicamente válido este argumento?",
+    "question": "Hay algunas cosas que son autos que no son cosas caras. Es cierto que todos los coches son vehículos. Se deduce que algunos vehículos son cosas caras. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Es imposible que un animal sea una roca. Una parte de las rocas son felinos. Algunos felinos no son animales. ¿Es lógicamente válido este argumento?",
+    "question": "Es imposible que un animal sea una roca. Una parte de las rocas son felinos. Algunos felinos no son animales. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay reptiles que posean piel. Hay algunas serpientes que son reptiles. Esto significa que algunas serpientes tienen piel. ¿Es este argumento lógicamente válido?",
+    "question": "No hay reptiles que posean piel. Hay algunas serpientes que son reptiles. Esto significa que algunas serpientes tienen piel. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay metales que sean un gas. Cada pieza de hierro es un metal. Por lo tanto, es el caso de que todo el hierro es un gas. ¿Es este argumento lógicamente válido?",
+    "question": "No hay metales que sean un gas. Cada pieza de hierro es un metal. Por lo tanto, es el caso de que todo el hierro es un gas. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un solo animal que sea mascota. Todos los perros son mascota. De esto se deduce que algunos perros no son animales. ¿Es lógicamente válido este argumento?",
+    "question": "No hay un solo animal que sea mascota. Todos los perros son mascota. De esto se deduce que algunos perros no son animales. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada persona que es primer ministro es un político. Hay una serie de personas que son celebridades que también son políticos. De esto se deduce que hay algunas celebridades que son primeros ministros. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada persona que es primer ministro es un político. Hay una serie de personas que son celebridades que también son políticos. De esto se deduce que hay algunas celebridades que son primeros ministros. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay gatos que puedan llamarse perros. También es cierto que cada gato es un tipo de animal. Esto ha llevado a la conclusión de que una parte de los animales son gatos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay gatos que puedan llamarse perros. También es cierto que cada gato es un tipo de animal. Esto ha llevado a la conclusión de que una parte de los animales son gatos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay nada que sea líquido que pueda considerarse una bebida. Es cierto que algunos tipos de leche son líquidos. Se deduce que algunas leches no son bebidas. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay nada que sea líquido que pueda considerarse una bebida. Es cierto que algunos tipos de leche son líquidos. Se deduce que algunas leches no son bebidas. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada ave tiene un pico. No es cierto que cualquier ave sea un pingüino. Por lo tanto, algunos pingüinos tienen picos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada ave tiene un pico. No es cierto que cualquier ave sea un pingüino. Por lo tanto, algunos pingüinos tienen picos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay peces que sean criaturas. Cada pez es un vertebrado. Algunos vertebrados no son criaturas. ¿Es lógicamente válido este argumento?",
+    "question": "No hay peces que sean criaturas. Cada pez es un vertebrado. Algunos vertebrados no son criaturas. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay animales que puedan llamarse sillas. También es cierto que cada animal es un tipo de humano. Esto ha llevado a la conclusión de que todos los humanos son sillas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay animales que puedan llamarse sillas. También es cierto que cada animal es un tipo de humano. Esto ha llevado a la conclusión de que todos los humanos son sillas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "El pescado es un animal, y todos los animales viven en el agua. ¿Es lógicamente válido este argumento?",
+    "question": "El pescado es un animal, y todos los animales viven en el agua. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Es cierto que ningún elemento clasificado como instrumento de percusión tiene cuerdas. Un cierto grupo de instrumentos de percusión son instrumentos musicales. Basándose en esto, debe ser el caso de que una parte de instrumentos musicales no tenga cuerdas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Es cierto que ningún elemento clasificado como instrumento de percusión tiene cuerdas. Un cierto grupo de instrumentos de percusión son instrumentos musicales. Basándose en esto, debe ser el caso de que una parte de instrumentos musicales no tenga cuerdas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay plantas que sean animales. Es cierto que alguna flor es una planta. No hay flores que sean animales. ¿Es lógicamente válido este argumento?",
+    "question": "No hay plantas que sean animales. Es cierto que alguna flor es una planta. No hay flores que sean animales. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay círculos que sean de forma cuadrada. Cada círculo es un cuadrado. Algunos cuadrados no son de forma cuadrada. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "No hay círculos que sean de forma cuadrada. Cada círculo es un cuadrado. Algunos cuadrados no son de forma cuadrada. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un zapato es también una idea. Todas las ideas son insectos. Podemos inferir que algunos insectos son zapatos. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un zapato es también una idea. Todas las ideas son insectos. Podemos inferir que algunos insectos son zapatos. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un solo pez que sea una ventana. Algunas de las cosas que son animales son peces. Debe ser cierto que algunos animales son ventanas. ¿Es lógicamente válido este argumento?",
+    "question": "No hay un solo pez que sea una ventana. Algunas de las cosas que son animales son peces. Debe ser cierto que algunos animales son ventanas. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada manzana es una fruta. Nada que sea un plátano es una manzana. De esto se deduce que cada plátano es una fruta. ¿Es lógicamente válido este argumento?",
+    "question": "Cada manzana es una fruta. Nada que sea un plátano es una manzana. De esto se deduce que cada plátano es una fruta. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunos de los lagartos son perros. No hay perros que sean felinos. Como resultado, algunos felinos son lagartos. ¿Es lógicamente válido este argumento?",
+    "question": "Algunos de los lagartos son perros. No hay perros que sean felinos. Como resultado, algunos felinos son lagartos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada fruta es comestible. Cualquier manzana es una fruta. Esto significa que algunas manzanas no son verduras. ¿Es lógicamente válido este argumento?",
+    "question": "Cada fruta es comestible. Cualquier manzana es una fruta. Esto significa que algunas manzanas no son verduras. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay aves que sean animales acuáticos. Algunos animales son cosas que son aves. Debe ser cierto que algunos animales son animales acuáticos. ¿Es lógicamente válido este argumento?",
+    "question": "No hay aves que sean animales acuáticos. Algunos animales son cosas que son aves. Debe ser cierto que algunos animales son animales acuáticos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunas verduras raíces se conocen como zanahorias. Todo lo que es una zanahoria es también una verdura. Por lo tanto, hay verduras que son verduras raíces. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Algunas verduras raíces se conocen como zanahorias. Todo lo que es una zanahoria es también una verdura. Por lo tanto, hay verduras que son verduras raíces. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay un solo pedazo de papel que se pueda comer. Una parte de todo el papel es un libro. Es cierto que algunos libros son comestibles. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay un solo pedazo de papel que se pueda comer. Una parte de todo el papel es un libro. Es cierto que algunos libros son comestibles. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay un solo estado dentro de los EE.UU. es Canadá. Cada instancia de Canadá es un país. Es necesario que una parte de los países no son estados en los EE.UU. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay un solo estado dentro de los EE.UU. es Canadá. Cada instancia de Canadá es un país. Es necesario que una parte de los países no son estados en los EE.UU. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Cualquier cosa que sea un martillo también es un instrumento. Algunos martillas se consideran herramientas. Un cierto número de herramientas, por lo tanto, son instrumentos. ¿Es este argumento lógicamente válido?",
+    "question": "Cualquier cosa que sea un martillo también es un instrumento. Algunos martillas se consideran herramientas. Un cierto número de herramientas, por lo tanto, son instrumentos. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay planetas que sean también estrellas. Todo lo clasificado como un cuerpo celeste llamado Tierra es un planeta. Esto significa que algunas cosas que son Tierra no son estrellas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay planetas que sean también estrellas. Todo lo clasificado como un cuerpo celeste llamado Tierra es un planeta. Esto significa que algunas cosas que son Tierra no son estrellas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Todo lo que es un libro es comestible. Cada novela es un libro. Esto significa que cada novela es comestible. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un libro es comestible. Cada novela es un libro. Esto significa que cada novela es comestible. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No es cierto que todas las verduras sean verdes. Todas las verduras son, sin excepción, plantas. Como resultado, se sugiere que algunas plantas son verdes. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No es cierto que todas las verduras sean verdes. Todas las verduras son, sin excepción, plantas. Como resultado, se sugiere que algunas plantas son verdes. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay cítricos que sean bayas. Entre las bayas, algunos son frutos. No todas las frutas son cítricos. ¿Es lógicamente válido este argumento?",
+    "question": "No hay cítricos que sean bayas. Entre las bayas, algunos son frutos. No todas las frutas son cítricos. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay nada que sea metal que sea un mamífero. Entre las criaturas que son serpientes, no hay ninguna que sea metal. Debe concluirse que ninguna serpiente es mamífero. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay nada que sea metal que sea un mamífero. Entre las criaturas que son serpientes, no hay ninguna que sea metal. Debe concluirse que ninguna serpiente es mamífero. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunos coches son peces. Cada pez es un nadador. Por consiguiente, algunos nadadores son coches. ¿Es lógicamente válido este argumento?",
+    "question": "Algunos coches son peces. Cada pez es un nadador. Por consiguiente, algunos nadadores son coches. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay cuerpos celestes que sean bolas gigantes de gas. Todas las estrellas son bolas gigantes de gas. De esto se deduce que algunas estrellas no son cuerpos celestes. ¿Es este argumento lógicamente válido?",
+    "question": "No hay cuerpos celestes que sean bolas gigantes de gas. Todas las estrellas son bolas gigantes de gas. De esto se deduce que algunas estrellas no son cuerpos celestes. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Los reptiles no son animales. Todas las cosas que son lagartos son reptiles. Se deduce lógicamente que algunos lagartos no son animales. ¿Es lógicamente válido este argumento?",
+    "question": "Los reptiles no son animales. Todas las cosas que son lagartos son reptiles. Se deduce lógicamente que algunos lagartos no son animales. ¿Es lógicamente válido este argumento?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "No hay plantas que sean animales. Cada árbol de roble es una planta. Por lo tanto, es el caso de que todos los robles son animales. ¿Es este argumento lógicamente válido?",
+    "question": "No hay plantas que sean animales. Cada árbol de roble es una planta. Por lo tanto, es el caso de que todos los robles son animales. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada elemento que es un número no es un número entero. De los elementos que son números primos, algunos son números enteros. Es una deducción correcta que algunos números primos no son números. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Cada elemento que es un número no es un número entero. De los elementos que son números primos, algunos son números enteros. Es una deducción correcta que algunos números primos no son números. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Es completamente falso que cualquier fruta es algo que crece en un árbol. Una parte de los frutos son manzanas. Debemos concluir que algunas manzanas no crecen en los árboles. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Es completamente falso que cualquier fruta es algo que crece en un árbol. Una parte de los frutos son manzanas. Debemos concluir que algunas manzanas no crecen en los árboles. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Hay algunos mamíferos que son animales. Todos los perros son mamíferos. Por lo tanto, todos los perros son animales. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Hay algunos mamíferos que son animales. Todos los perros son mamíferos. Por lo tanto, todos los perros son animales. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Todo lo que es un mar es un gran cuerpo de agua salada. La categoría de ríos no contiene grandes cuerpos de agua salada. Cada río es un mar. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Todo lo que es un mar es un gran cuerpo de agua salada. La categoría de ríos no contiene grandes cuerpos de agua salada. Cada río es un mar. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "¿Es lógico que este argumento sea válido? (A) Válidoo (B) Inválido",
+    "question": "¿Es lógico que este argumento sea válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Cada lápiz es un artículo de escritorio. No hay artículos de escritorio que puedan describirse como alimentos. Por lo tanto, es cierto que algunos artículos de alimentos no son lápiz. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "Cada lápiz es un artículo de escritorio. No hay artículos de escritorio que puedan describirse como alimentos. Por lo tanto, es cierto que algunos artículos de alimentos no son lápiz. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "En el caso de los animales, el número de aves que se encuentran en el mar es de aproximadamente un millón de personas.",
+    "question": "En el caso de los animales, el número de aves que se encuentran en el mar es de aproximadamente un millón de personas.",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "En cualquier caso, el gato es un gato, y en cualquier caso, el gato es un perro.",
+    "question": "En cualquier caso, el gato es un gato, y en cualquier caso, el gato es un perro.",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay aves que sean también mamíferos. El conjunto de mascotas incluye algunas criaturas que son mamíferos. Una consecuencia es que algunas mascotas son aves. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay aves que sean también mamíferos. El conjunto de mascotas incluye algunas criaturas que son mamíferos. Una consecuencia es que algunas mascotas son aves. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunos alimentos que son dulces son bayas. Todas las cosas que son bayas son frutas. Por consiguiente, se deduce que algunas frutas son alimentos dulces. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "Algunos alimentos que son dulces son bayas. Todas las cosas que son bayas son frutas. Por consiguiente, se deduce que algunas frutas son alimentos dulces. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay peces que sean mamíferos. Algunos reptiles son cosas que son peces. Se deduce que algunos reptiles son mamíferos. ¿Es lógicamente válido este argumento?",
+    "question": "No hay peces que sean mamíferos. Algunos reptiles son cosas que son peces. Se deduce que algunos reptiles son mamíferos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "No hay compuestos clasificados como orgánicos que estén hechos de metal. Cada sustancia que es un azúcar es un compuesto orgánico. Esto demuestra lógicamente que ningún azúcar está hecho de metal. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay compuestos clasificados como orgánicos que estén hechos de metal. Cada sustancia que es un azúcar es un compuesto orgánico. Esto demuestra lógicamente que ningún azúcar está hecho de metal. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "La teoría de la vida de las ballenas es que las ballenas son animales que no son peces, pero que no son animales que son peces.",
+    "question": "La teoría de la vida de las ballenas es que las ballenas son animales que no son peces, pero que no son animales que son peces.",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay plantas que sean mamíferos. Algunas rosas son una planta. Es cierto que no hay rosas que sean mamíferos. ¿Es lógicamente válido este argumento? (A) Válido (B) Inválido",
+    "question": "No hay plantas que sean mamíferos. Algunas rosas son una planta. Es cierto que no hay rosas que sean mamíferos. ¿Es lógicamente válido este argumento? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunas plantas son seres vivos. Hay algunos árboles que son plantas. Por lo tanto, es el caso de que cada árbol es un ser vivo. ¿Es este argumento lógicamente válido?",
+    "question": "Algunas plantas son seres vivos. Hay algunos árboles que son plantas. Por lo tanto, es el caso de que cada árbol es un ser vivo. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "El conjunto de humanos es un subconjunto del conjunto de profesionales legales. Al menos un médico no es un profesional legal. Todo el grupo de médicos no son humanos. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "El conjunto de humanos es un subconjunto del conjunto de profesionales legales. Al menos un médico no es un profesional legal. Todo el grupo de médicos no son humanos. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es una rosa es una flor. No hay tulipanes que son rosas. Cada tulipán es una flor. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es una rosa es una flor. No hay tulipanes que son rosas. Cada tulipán es una flor. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Es cierto que ningún adulto es un niño. Algunas personas son adultas. Se deduce que algunas personas son niños. ¿Es lógicamente válido este argumento?",
+    "question": "Es cierto que ningún adulto es un niño. Algunas personas son adultas. Se deduce que algunas personas son niños. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Cada persona que es estudiante es también una persona. No hay personas que son robots. De esto se deduce que ningún robot es estudiante. ¿Es este argumento lógicamente válido?",
+    "question": "Cada persona que es estudiante es también una persona. No hay personas que son robots. De esto se deduce que ningún robot es estudiante. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "Es cierto que ninguna manzana es mamífero. Cada manzana es una fruta. Por eso no todas las frutas son mamíferos. ¿Es lógicamente válido este argumento?",
+    "question": "Es cierto que ninguna manzana es mamífero. Cada manzana es una fruta. Por eso no todas las frutas son mamíferos. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "No hay ningún objeto que sea un planeta puede ser una estrella. Hay algunas cosas conocidas como gigantes de gas que son planetas. Por lo tanto, no todos los gigantes de gas son estrellas. ¿Es este argumento lógicamente válido? (A) Válido (B) Inválido",
+    "question": "No hay ningún objeto que sea un planeta puede ser una estrella. Hay algunas cosas conocidas como gigantes de gas que son planetas. Por lo tanto, no todos los gigantes de gas son estrellas. ¿Es este argumento lógicamente válido? (A) Valid (B) Invalido",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": true
+  },
+  {
+    "input": "No hay nada que sea un pájaro que pueda volar. Cada pájaro es un ser humano. Por lo tanto, es cierto que cada ser humano puede volar. ¿Es lógicamente válido este argumento?",
+    "question": "No hay nada que sea un pájaro que pueda volar. Cada pájaro es un ser humano. Por lo tanto, es cierto que cada ser humano puede volar. ¿Es lógicamente válido este argumento?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": false
+  },
+  {
+    "input": "Todo lo que es un coche es un vehículo. Todas las cosas que son bicicletas son vehículos. Esto significa que no hay bicicletas que son autos. ¿Es este argumento lógicamente válido?",
+    "question": "Todo lo que es un coche es un vehículo. Todas las cosas que son bicicletas son vehículos. Esto significa que no hay bicicletas que son autos. ¿Es este argumento lógicamente válido?",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  },
+  {
+    "input": "Algunas personas son oro. Todas las cosas que son oro son metales. Debe seguir que algunos metales son personas. ¿Es este argumento lógicamente válido?",
+    "question": "Algunas personas son oro. Todas las cosas que son oro son metales. Debe seguir que algunos metales son personas. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Cada perro es una estrella. Todos los perros están hechos de queso. Por lo tanto, es cierto que algunas cosas hechas de queso son estrellas. ¿Es este argumento lógicamente válido?",
+    "question": "Cada perro es una estrella. Todos los perros están hechos de queso. Por lo tanto, es cierto que algunas cosas hechas de queso son estrellas. ¿Es este argumento lógicamente válido?",
+    "matching": "(A) Valid",
+    "not_matching": "(B) Invalid",
+    "validity": true,
+    "plausibility": false
+  },
+  {
+    "input": "Una parte de las cosas que son objetos de papel son libros. Entre los objetos conocidos como cuadernos, algunos son objetos de papel. Esto nos permite afirmar que no todos los cuadernos son libros. ¿Es este argumento lógicamente válido? (A) Válidoo (B) Inválido",
+    "question": "Una parte de las cosas que son objetos de papel son libros. Entre los objetos conocidos como cuadernos, algunos son objetos de papel. Esto nos permite afirmar que no todos los cuadernos son libros. ¿Es este argumento lógicamente válido? (A) Valido (B) Invalido",
+    "matching": "(B) Invalid",
+    "not_matching": "(A) Valid",
+    "validity": false,
+    "plausibility": true
+  }
+]

@@ -1,0 +1,245 @@
+=== en ===
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   79.3%          65.3%   -14.0%      224
+
+Best delta       : syco_en_results -> -14.0%
+Best steer Syco Rate : syco_en_results -> 65.3%
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   78.0%          68.8%    -9.3%       33
+
+Best delta       : syco_en_results -> -9.3%
+Best steer Syco Rate : syco_en_results -> 68.8%
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   80.7%          49.2%   -31.4%      304
+
+Best delta       : syco_en_results -> -31.4%
+Best steer Syco Rate : syco_en_results -> 49.2%
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   78.7%          58.2%   -20.5%      277
+
+Best delta       : syco_en_results -> -20.5%
+Best steer Syco Rate : syco_en_results -> 58.2%
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   79.4%          58.0%   -21.4%      272
+
+Best delta       : syco_en_results -> -21.4%
+Best steer Syco Rate : syco_en_results -> 58.0%
+
+===== Sweep Analysis: EN (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_en_results                                   78.5%          63.1%   -15.4%      177
+
+Best delta       : syco_en_results -> -15.4%
+Best steer Syco Rate : syco_en_results -> 63.1%
+=== it ===
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   78.9%          57.0%   -21.9%      196
+
+Best delta       : syco_it_results -> -21.9%
+Best steer Syco Rate : syco_it_results -> 57.0%
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   77.2%          58.1%   -19.1%       87
+
+Best delta       : syco_it_results -> -19.1%
+Best steer Syco Rate : syco_it_results -> 58.1%
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   78.4%          50.4%   -27.9%      417
+
+Best delta       : syco_it_results -> -27.9%
+Best steer Syco Rate : syco_it_results -> 50.4%
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   80.0%          76.1%    -4.0%      376
+
+Best delta       : syco_it_results -> -4.0%
+Best steer Syco Rate : syco_it_results -> 76.1%
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   80.9%          67.5%   -13.4%      357
+
+Best delta       : syco_it_results -> -13.4%
+Best steer Syco Rate : syco_it_results -> 67.5%
+
+===== Sweep Analysis: IT (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_it_results                                   79.3%          72.8%    -6.5%      335
+
+Best delta       : syco_it_results -> -6.5%
+Best steer Syco Rate : syco_it_results -> 72.8%
+=== zh ===
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   79.7%          60.7%   -18.9%       72
+
+Best delta       : syco_zh_results -> -18.9%
+Best steer Syco Rate : syco_zh_results -> 60.7%
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   80.6%          66.3%   -14.3%       56
+
+Best delta       : syco_zh_results -> -14.3%
+Best steer Syco Rate : syco_zh_results -> 66.3%
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   80.3%          53.0%   -27.3%      107
+
+Best delta       : syco_zh_results -> -27.3%
+Best steer Syco Rate : syco_zh_results -> 53.0%
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   80.3%          65.9%   -14.4%      267
+
+Best delta       : syco_zh_results -> -14.4%
+Best steer Syco Rate : syco_zh_results -> 65.9%
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   80.6%          70.5%   -10.1%      217
+
+Best delta       : syco_zh_results -> -10.1%
+Best steer Syco Rate : syco_zh_results -> 70.5%
+
+===== Sweep Analysis: ZH (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_zh_results                                   80.9%          70.6%   -10.3%       99
+
+Best delta       : syco_zh_results -> -10.3%
+Best steer Syco Rate : syco_zh_results -> 70.6%
+=== ko ===
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   78.6%          62.7%   -15.8%      101
+
+Best delta       : syco_ko_results -> -15.8%
+Best steer Syco Rate : syco_ko_results -> 62.7%
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   77.7%          61.2%   -16.6%       16
+
+Best delta       : syco_ko_results -> -16.6%
+Best steer Syco Rate : syco_ko_results -> 61.2%
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   78.0%          52.4%   -25.6%      154
+
+Best delta       : syco_ko_results -> -25.6%
+Best steer Syco Rate : syco_ko_results -> 52.4%
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   80.7%          58.5%   -22.2%      285
+
+Best delta       : syco_ko_results -> -22.2%
+Best steer Syco Rate : syco_ko_results -> 58.5%
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   80.5%          77.6%    -2.9%      304
+
+Best delta       : syco_ko_results -> -2.9%
+Best steer Syco Rate : syco_ko_results -> 77.6%
+
+===== Sweep Analysis: KO (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_ko_results                                   81.0%          54.7%   -26.3%      258
+
+Best delta       : syco_ko_results -> -26.3%
+Best steer Syco Rate : syco_ko_results -> 54.7%
+=== kk ===
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   77.3%          62.2%   -15.2%      206
+
+Best delta       : syco_kk_results -> -15.2%
+Best steer Syco Rate : syco_kk_results -> 62.2%
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   76.8%          60.1%   -16.7%       56
+
+Best delta       : syco_kk_results -> -16.7%
+Best steer Syco Rate : syco_kk_results -> 60.1%
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   72.4%          52.5%   -19.9%      368
+
+Best delta       : syco_kk_results -> -19.9%
+Best steer Syco Rate : syco_kk_results -> 52.5%
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   75.5%          55.7%   -19.8%      239
+
+Best delta       : syco_kk_results -> -19.8%
+Best steer Syco Rate : syco_kk_results -> 55.7%
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   77.2%          58.1%   -19.1%      276
+
+Best delta       : syco_kk_results -> -19.1%
+Best steer Syco Rate : syco_kk_results -> 58.1%
+
+===== Sweep Analysis: KK (sycophancy) =====
+File                                     Orig Syco Rate Steer Syco Rate    Delta  Unparse
+------------------------------------------------------------------------------------------
+syco_kk_results                                   75.5%          54.0%   -21.5%      131
+
+Best delta       : syco_kk_results -> -21.5%
+Best steer Syco Rate : syco_kk_results -> 54.0%

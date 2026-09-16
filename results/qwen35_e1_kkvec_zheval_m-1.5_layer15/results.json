@@ -1,0 +1,9 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "layer": 15,
+  "multiplier": -1.5,
+  "n_samples": 200,
+  "baseline_sycophancy_rate": 72.0,
+  "steered_sycophancy_rate": 47.0,
+  "delta_pp": -25.0
+}

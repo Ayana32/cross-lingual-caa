@@ -1,0 +1,6 @@
+[
+  {"name":"syco_ko_L17_strong",    "real_vector":"/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct-ko/sycophancy_ko/caa_vector_multiple_choice/layer_17.pt"},
+  {"name":"syco_ko_L17_corrected", "real_vector":"/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct-ko/sycophancy_ko/caa_vector_multiple_choice_normalized/layer_17.pt"},
+  {"name":"syco_es_L17_strong",    "real_vector":"/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct-es/sycophancy_es/caa_vector_multiple_choice/layer_17.pt"},
+  {"name":"syco_es_L17_corrected", "real_vector":"/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct-es/sycophancy_es/caa_vector_multiple_choice_normalized/layer_17.pt"}
+]

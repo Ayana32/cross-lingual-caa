@@ -1,0 +1,16 @@
+model_name_or_path: google/gemma-4-12b-it
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: true
+system_prompt: 'Answer only with (A) or (B).'
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa_gemma4_truthfulqa.yaml
+steer_train_dataset:
+ - truthfulqa_kk
+save_vectors: True
+steer_vector_output_dirs:
+ - vectors/Gemma4-12B/truthfulqa/caa_vector
+
+vllm_enable: false

@@ -1,0 +1,16 @@
+model_name_or_path: Qwen/Qwen3.5-9B
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: True
+system_prompt: ''
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa_qwen35_layers13_18.yaml
+steer_train_dataset:
+ - sycophancy_kk
+save_vectors: True
+steer_vector_output_dirs:
+ - vectors/Qwen3.5-9B
+
+vllm_enable: false

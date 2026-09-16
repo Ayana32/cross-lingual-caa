@@ -1,0 +1,16 @@
+model_name_or_path: allenai/Olmo-3-7B-Instruct
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: True
+system_prompt: ''
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa_olmo3.yaml
+steer_train_dataset:
+ - sycophancy
+save_vectors: True
+steer_vector_output_dirs:
+ - vectors/Olmo-3-7B-Instruct
+
+vllm_enable: false

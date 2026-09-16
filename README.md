@@ -1,105 +1,111 @@
-# Cross-Lingual Generalisation of LLM Steering Interventions
+# Cross-Lingual CAA Sycophancy Steering
 
-**MSc Dissertation — University of Sheffield, 2025–2026**  
-Supervised by **Dr. Cass Zhao** and **Dr. Marco Valentino**
+MSc Dissertation — University of Sheffield, 2026  
+**Ayana (Misun Kim)** | Supervised by Dr. Cass Zhao & Dr. Marco Valentino
+
+---
 
 ## Overview
 
-This repository provides a public overview of my MSc dissertation on the cross-lingual generalisation of activation-based LLM steering interventions.
+This project investigates whether Contrastive Activation Addition (CAA) steering vectors extracted from English sycophancy data generalise across languages without target-language adaptation. Experiments are conducted on two models across five languages, with representational geometry analysis and random baseline validation.
 
-The project investigates whether behavioural steering directions learned in English transfer reliably across languages, and why similar internal steering directions may produce different behavioural effects across linguistic and model settings.
-
-The work focuses on multilingual LLM alignment, representation steering, behavioural evaluation, and the relationship between internal representation geometry and downstream model behaviour.
+---
 
 ## Research Questions
 
-- Do English-derived steering vectors transfer zero-shot across languages?
-- Are behavioural effects consistent across model families and linguistic settings?
-- How do English-derived vectors compare with language-specific steering vectors?
-- Are observed effects direction-specific, rather than consequences of generic activation perturbation?
-- How does representational similarity relate to behavioural transfer?
-- Do observed transfer patterns generalise across different behavioural and factuality tasks?
+- **RQ1:** Do English-derived CAA steering vectors reduce sycophancy in non-English languages?
+- **RQ2:** How does cross-lingual transfer vary across languages, layers, and model architectures?
+- **RQ3:** Are the observed effects direction-specific, or artefacts of intervention magnitude?
+- **RQ4:** What is the relationship between cross-lingual vector geometry and behavioural transfer?
 
-## Research Scope
+---
 
-- **Method:** Contrastive Activation Addition and activation-based representation steering
-- **Models:** Multiple open-weight LLM families
-- **Languages:** English, Italian, Chinese, Korean, and Kazakh
-- **Primary behaviour:** Sycophancy
-- **Additional evaluations:** Formal reasoning and multilingual TruthfulQA
-- **Analysis:** Cross-lingual transfer, native-vector comparison, statistical controls, and representation geometry
-- **Infrastructure:** PyTorch, Hugging Face Transformers, Linux HPC, and SLURM
+## Models & Setup
 
-## Experimental Framework
+| | Qwen3.5-9B | Gemma4-12B-IT |
+|---|---|---|
+| Checkpoint | `Qwen/Qwen3.5-9B` | `google/gemma-4-12b-it` |
+| Multiplier | α = −1.5 | α = −1.0 |
+| Layer sweep | L10–L23 | L20–L33 |
+| Primary layer | L15 | L26 |
+| Framework | EasyEdit2 | EasyEdit2 |
+| HPC | Stanage (Sheffield) | Stanage (Sheffield) |
 
-The dissertation work includes:
+---
 
-- English-derived steering-vector extraction
-- Layer-wise intervention experiments
-- Zero-shot cross-lingual behavioural evaluation
-- Language-specific vector comparisons
-- Paired bootstrap confidence intervals
-- Norm-matched Gaussian and permutation controls
-- Cross-model comparison
-- Representation-similarity analysis
-- Multilingual dataset construction and translation-quality review
-- Cross-task evaluation on formal reasoning
+## Languages & Datasets
 
-## Current Findings
+**Task:** Sycophancy subset of [Model-Written Evaluations](https://github.com/anthropics/evals) (Perez et al., 2022)
 
-The completed experiments provide evidence that activation-based behavioural steering can transfer across typologically diverse languages and multiple model families.
+| Code | Language | Train (vector) | Eval (held-out) |
+|------|----------|---------------|-----------------|
+| EN | English | 800 | 200 |
+| IT | Italian | 800 | 200 |
+| ZH | Chinese | 800 | 200 |
+| KO | Korean | 800 | 200 |
+| KK | Kazakh | 800 | 200 |
 
-The findings indicate that:
+Translations generated with GPT-4o. Kazakh dataset corrected for systematic mistranslation (86 items).  
+Train/eval split: seed=42, random shuffle.
 
-- transfer strength varies across languages and models;
-- representational similarity alone does not fully explain behavioural outcomes;
-- English-derived and language-specific vectors may differ in effectiveness;
-- steering effects are substantially stronger than matched random and permutation controls;
-- behavioural interventions may transfer beyond the original extraction task.
+---
 
-Detailed numerical results and model-specific analyses are withheld while the work is being prepared for publication.
+## Repository Structure
 
-## Ongoing TruthfulQA Extension
+```
+cross-lingual-caa/
+├── data/
+│ └── sycophancy/ # 800/200 train/eval split per language
+├── cross_lingual/
+│ ├── analyze_sweep.py # Layer sweep analysis (paired intersection)
+│ ├── parse_utils.py # Output parsing utilities
+│ └── submit_*.sh # HPC job submission scripts
+├── geometry/
+│ ├── pca_analysis_qwen35.py # Cosine + norm analysis (Qwen3.5)
+│ ├── pca_analysis_gemma4.py # Cosine + norm analysis (Gemma4)
+│ ├── cosine_delta_scatter.py # Geometry-behaviour scatter (Qwen3.5)
+│ ├── cosine_delta_scatter_gemma4.py # Geometry-behaviour scatter (Gemma4)
+│ └── plot_geometry_figures.py # Heatmap + norm figures (both models)
+├── random_baseline/
+│ ├── run_control.py # Control vector application
+│ ├── submit_control.sh # HPC array job submission
+│ ├── analyze_random_baseline_qwen35.py
+│ ├── analyze_random_baseline_gemma4.py
+│ └── configs/ # Base configs for control experiments
+├── hparams/
+│ └── Steer/ # EasyEdit2 configs
+└── steering/
+└── vectors_generate.py # CAA vector extraction
+```
 
-The project is being extended to multilingual TruthfulQA to examine whether cross-lingual steering patterns generalise from sycophancy and formal reasoning to factuality and truthfulness evaluation.
 
-Current work includes:
+---
 
-- reviewing multilingual translations for semantic fidelity and label consistency;
-- aligning evaluation items across languages using shared indices;
-- correcting translation and annotation issues before experimentation;
-- developing a shared multilingual evaluation protocol with research collaborators;
-- assessing common open-weight models across languages and tasks.
+## Key Results (Sycophancy, primary layer)
 
-TruthfulQA results are not yet included because dataset validation and experimental preparation are ongoing.
+### ΔSR at English-selected layer (negative = sycophancy reduced)
 
-## Research Status
+| Language | Qwen3.5 L15 | Gemma4 L26 |
+|----------|-------------|------------|
+| EN | −18.5 pp | −22.2 pp |
+| IT | −21.1 pp | −14.2 pp |
+| ZH | −24.9 pp | −14.1 pp |
+| KO | −19.1 pp | −14.7 pp |
+| KK | −19.3 pp | −15.1 pp |
 
-🚧 **Ongoing research**
+All bootstrap 95% CIs exclude zero (paired bootstrap, 2,000 resamples).
 
-- Core MSc dissertation experiments completed
-- Cross-model, cross-lingual, native-vector, and control analyses completed
-- TruthfulQA dataset validation and evaluation extension in progress
-- Work being extended into a collaborative manuscript with a five-person research team
-- Detailed results and selected artefacts will be released after publication decisions are finalised
+### Native Vector Comparison
 
-## Technology Stack
+- **Qwen3.5-9B**: No statistically reliable difference between EN-derived and native vectors (all CIs include zero).
+- **Gemma4-12B-IT**: EN-derived vector outperforms native vectors in all four target languages (all CIs exclude zero).
 
-**Research:** Python · PyTorch · Hugging Face Transformers · NumPy · pandas  
-**Evaluation:** Behavioural evaluation · Bootstrap analysis · Representation analysis · Translation-quality review  
-**Infrastructure:** Linux · SLURM · HPC · Git · Weights & Biases
+---
 
-## Availability
+## Conda Environment
 
-This repository currently contains only a public research overview. Experimental code, datasets, numerical results, and manuscript materials are not publicly released while the work is being prepared for publication.
+```bash
+conda activate easyedit2
+export PYTHONPATH=/users/acp25mk/EasyEdit2:${PYTHONPATH:-}
+```
 
-Selected artefacts may be released following dissertation completion and publication decisions, subject to collaboration, licensing, and data-sharing constraints.
-
-## Contact
-
-For research discussion or collaboration:
-
-**Misun Kim**  
-MSc Speech and Natural Language Processing  
-University of Sheffield  
-misunkim@sheffield.ac.uk
