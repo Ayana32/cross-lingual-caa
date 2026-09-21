@@ -14,7 +14,7 @@ Alignment methods for large language models are usually built and validated in E
 
 I extract Contrastive Activation Addition (CAA) steering vectors from English sycophancy data and apply them without modification to English, Italian, Chinese, Korean, and Kazakh inputs across three open-weight model families. A separate cross-task evaluation uses English-derived truthfulness vectors on a forced-choice TruthfulQA task.
 
-**Headline finding: high cross-lingual representational similarity is not sufficient for behavioural transfer.** Steering directions that are strongly aligned across languages (cosine 0.92 to 0.99) produce uneven and sometimes opposite behavioural effects, and the pattern reverses across tasks within the same model.
+**Headline finding: high cross-lingual representational similarity is not sufficient for behavioural transfer.** Steering directions that are strongly aligned across languages (cosine 0.92 to 0.99) produce uneven and sometimes opposite behavioural effects, and the pattern did not hold across tasks.
 
 ---
 
@@ -81,7 +81,7 @@ The two models invert: Qwen3.5-9B transfers sycophancy steering reliably but sho
 
 ### Representation geometry
 
-Mean EN-target cosine similarity:
+ Mean EN-target cosine similarity (sycophancy vectors, English-selected layer):
 
 | Model | Range | Behavioural transfer |
 |---|---|---|
