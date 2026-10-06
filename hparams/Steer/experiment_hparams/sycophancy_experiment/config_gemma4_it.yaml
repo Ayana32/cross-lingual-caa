@@ -1,0 +1,16 @@
+model_name_or_path: google/gemma-4-12b-it
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: True
+system_prompt: ''
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa_gemma4_multilingual.yaml
+steer_train_dataset:
+ - sycophancy_it
+save_vectors: True
+steer_vector_output_dirs:
+ - vectors/Gemma4-12B
+
+vllm_enable: false

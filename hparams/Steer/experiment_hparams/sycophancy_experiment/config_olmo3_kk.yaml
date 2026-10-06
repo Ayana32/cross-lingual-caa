@@ -1,0 +1,16 @@
+model_name_or_path: allenai/Olmo-3-7B-Instruct
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: true
+system_prompt: 'Answer with only (A) or (B).'
+
+steer_train_hparam_paths:
+ - hparams/Steer/caa_hparams/generate_caa_olmo3_multilingual.yaml
+steer_train_dataset:
+ - sycophancy_kk
+save_vectors: True
+steer_vector_output_dirs:
+ - vectors/Olmo-3-7B-Instruct/sycophancy_kk
+
+vllm_enable: false

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "syco_en_L17_strong",
+    "real_vector": "/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct/sycophancy/caa_vector_multiple_choice/layer_17.pt"
+  },
+  {
+    "name": "syco_en_L17_corrected",
+    "real_vector": "/users/acp25mk/cross-lingual-caa/vectors/Qwen2.5-7B-Instruct/sycophancy/caa_vector_multiple_choice_normalized/layer_17.pt"
+  }
+]

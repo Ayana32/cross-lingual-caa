@@ -1,0 +1,22 @@
+model_name_or_path: allenai/Olmo-3-7B-Instruct
+torch_dtype: bfloat16
+device: cuda:0
+seed: 42
+use_chat_template: true
+system_prompt: 'Answer with only (A) or (B).'
+apply_steer_hparam_paths:
+- /users/acp25mk/cross-lingual-caa/hparams/Steer/caa_hparams/apply_caa_layer16_m-1.5.yaml
+steer_vector_load_dir:
+- /users/acp25mk/cross-lingual-caa/vectors/Olmo-3-7B-Instruct/sycophancy/caa_vector_multiple_choice
+generation_data:
+- /users/acp25mk/cross-lingual-caa/data/sycophancy/en/eval.json
+generation_data_size: null
+generation_output_dir: /users/acp25mk/cross-lingual-caa/results/olmo3_syco_en_m-1.5_layer16
+num_responses: 1
+steer_from_end_position: false
+generate_orig_output: true
+generation_params:
+  max_new_tokens: 512
+  do_sample: false
+  temperature: 0.0
+enable_thinking: false

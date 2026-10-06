@@ -1,0 +1,12 @@
+Lang   Method       Mean ΔSR      Std   Real ΔSR  Seeds
+-------------------------------------------------------
+EN     gaussian         0.19     2.02      -18.5     20
+EN     permute          0.18     2.73      -18.5     20
+IT     gaussian         1.07     3.24      -21.1     20
+IT     permute          0.62     3.68      -21.1     20
+ZH     gaussian        -0.89     4.81      -24.9     20
+ZH     permute         -2.97     5.35      -24.9     20
+KO     gaussian         1.64     3.98      -19.1     20
+KO     permute          0.51     4.76      -19.1     20
+KK     gaussian        -1.16     5.90      -19.3     20
+KK     permute         -2.46     3.55      -19.3     20
