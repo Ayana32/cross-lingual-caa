@@ -4,7 +4,7 @@
 
 MSc Dissertation, University of Sheffield (2026)
 MSc Speech and Natural Language Processing
-Supervisors: Dr Cass Zhao, Dr Marco Valentino
+Supervisor: Dr Cass Zhao
 
 ---
 
@@ -173,4 +173,4 @@ The practical consequence is that cross-lingual reliability of an alignment inte
 
 Misun Kim
 MSc Speech and Natural Language Processing, University of Sheffield
-[misunkim2732@gmail.com](mailto:misunkim@sheffield.ac.uk)
+[misunkim2732@gmail.com](mailto:misunkim2732@gmail.com)
