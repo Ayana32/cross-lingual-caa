@@ -6,6 +6,8 @@ MSc Dissertation, University of Sheffield (2026)
 MSc Speech and Natural Language Processing
 Supervisor: Dr Cass Zhao
 
+[Read the MSc dissertation (PDF)](https://ayana32.github.io/Misun_Kim_MSc_Dissertation_2026.pdf)
+
 ---
 
 ## Overview
